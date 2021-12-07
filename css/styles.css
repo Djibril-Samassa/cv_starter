@@ -1,0 +1,231 @@
+
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/poppins/poppins.ttf");
+}
+
+*{
+    margin:0rem;
+    padding:0rem;
+    box-sizing:border-box;
+    font-family: "poppins";
+}
+
+p {
+    font-size: 1rem;
+}
+
+header{
+    background-color: #0475ba;
+    height:7rem;
+    color:white;
+    display:flex;
+    align-items: center; 
+}
+
+h2{
+    margin-left:1rem;
+    margin-right:3rem;
+}
+
+.nav-links > a{
+    padding:1rem;
+    text-decoration: none;
+    color:white;
+}
+
+.my-info{
+    padding:3rem;
+    display: flex;
+    justify-content: center;
+}
+.section-content{
+    padding:4rem;
+    width:80%;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+
+.identity{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.identity h1{
+    margin-bottom:1rem;
+    font-size:2rem;
+}
+
+
+.identity h2{
+    color:#0475ba;
+    margin-left:3rem;
+}
+
+.pdp{
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+}
+
+
+#presentation{
+    padding:3em 20em;
+    color:white;
+    background-color: #0475ba;
+}
+
+
+.details_presentation>ul>li{
+    margin-left:2em;
+    padding:1rem;
+}
+
+#experiences_pro{
+    padding:3em 20em;
+}
+
+#experiences_pro h1{
+    margin-bottom:2em;
+    color:#0475ba;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.poste{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight:bold;
+    margin-bottom: 1em;
+}
+
+.tache{
+    margin-bottom:1em;
+}
+
+#formations{
+    padding:3em 20em;
+    color:white;
+    background-color: #0475ba;
+}
+
+#formations>h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding:2em 0em;
+    
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.passions{
+    padding:2em 20em;
+}
+
+.passions>h1{
+    color:#0475ba;
+    padding:1em 0em;
+}
+.contact{
+    background-color: #0475ba;
+    padding:2em;
+}
+
+.blogs{
+    display:flex;
+    flex-direction: column;
+}
+
+.blogs>a{
+    color:white;
+}
+
+.reseaux{
+    position: absolute;
+    margin-top:-50px;
+    margin-left:40%;
+    display:flex;
+    flex-direction:column;
+}
+
+.reseaux img{
+    padding-right:5px;
+    width:20px;
+    height:20px
+}
+
+.linkedin>a{
+    color:white;
+}
+
+.twitter>a{
+    color:white;
+}
+
+.linkedin{
+    display: flex;
+    align-items: center;
+}
+
+.twitter{
+    display: flex;
+    align-items: center;
+}
+
+    @media screen and (max-width: 1000px) {
+        .section-content {
+            flex-direction: column-reverse;
+            align-items: center;
+            text-align:center;
+        }
+    
+        .nav-links{
+            display:flex;
+            flex-direction: column;
+        }
+    
+        .nav-links > a{
+            padding:0;
+        }
+    
+        header{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #presentation{
+            padding:1rem 1rem;
+        }
+
+        #experiences_pro{
+            padding:1rem 1rem;
+        }
+
+        #formations{
+            padding:1rem 1rem;
+        }
+
+        .passions{
+            padding:1rem 1rem;
+        }
+
+        .poste{
+            margin:1rem 0rem;
+        }
+
+        .tache{
+            margin:0rem;
+        }
+
+
+
+    }

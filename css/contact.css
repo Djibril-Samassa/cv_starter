@@ -1,0 +1,91 @@
+body{
+    margin:0;
+    border-radius:20px;}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/poppins/poppins.ttf");
+}
+
+@font-face{
+    font-family: "sanfranciscomed";
+    src: url("../fonts/sanfrancisco/SFUIText-Medium.otf");
+}
+
+@font-face{
+    font-family: "sanfranciscoreg";
+    src: url("../fonts/sanfrancisco/SFUIText-Regular.otf");
+}
+
+@font-face{
+    font-family: "sanfranciscoblack";
+    src: url("../fonts/sanfrancisco/SFUIDisplay-Black.otf");
+}
+
+
+header{
+    height:2vh;
+    background-color: #0475ba;
+}
+
+main h1{
+    font-family: "sanfranciscomed";
+    font-weight:1000;
+    text-align: center;
+    padding:5vh 5vw;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    Margin:0 auto;
+    width:90%
+}
+
+label{
+    font-family:"sanfranciscoblack";
+    padding:2vh 0vh;
+}
+
+input{
+    padding:3vh 1vw;
+    font-family: "sanfranciscoreg";
+    margin-bottom:2vh;
+    border:1px solid rgb(206, 199, 199);
+    border-radius:5px;
+}
+
+input::placeholder{
+    font-family: "sanfranciscoreg";
+}
+
+textarea{
+    height:20vh;
+    padding:3vh 1vw;
+    font-family: "sanfranciscoreg";
+    margin-bottom:2vh;
+    border:1px solid rgb(206, 199, 199);
+    border-radius:5px;
+
+}
+
+textarea::placeholder{
+    font-family: "sanfranciscoreg";
+}
+
+#envoi{
+    font-family:"sanfranciscomed";
+    background-color: #0475ba;
+    border:0;
+    border-radius:5px;
+    color:white;
+}
+
+#envoi:hover{
+    cursor:pointer;
+    background-color: white;
+    color:#0475ba;
+    border:2px solid;
+    border-color:#0475ba;
+    border-radius:5px;
+}
